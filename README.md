@@ -50,6 +50,29 @@ c. Informamos que a aplicação pode ser hospedada em qualquer ambiente público
 > Este desafio permitirá que você demonstre suas habilidades em desenvolvimento frontend com Angular ou ReactJS, incluindo o consumo de APIs, manipulação de dados, criação de interfaces responsivas e boas práticas de codificação. Boa sorte!
 
 
-## Hospedagem ✨
 
-Implementação realizada no **[ambiente da Vercel](https://desafio-frontend-pi.vercel.app/)**
+## Como Executar 🛠️
+
+Realize o clone do projeto:
+```
+git clone https://github.com/commanchecps/desafio-frontend.git
+```
+
+Realize a instalação das dependencias do projeto:
+```
+npm install
+```
+
+Inicie a aplicação:
+```
+npm run dev
+```
+
+## Como Realizar os Testes 🐞
+
+> [!IMPORTANT]
+> 🔜 Testes unitários ainda não implementados.
+## Entrega 🐧
+
+Deploy realizado no **[ambiente da Vercel](https://desafio-frontend-pi.vercel.app/)**
+
