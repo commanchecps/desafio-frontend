@@ -4,11 +4,11 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -31,3 +31,23 @@ body {
     text-wrap: balance;
   }
 }
+
+.grid-fotos {
+    display: inline;
+}
+
+@media screen and (max-width: 600px) {
+    .md\:w-auto {
+      width: 100% !important;
+    }
+
+    .md\:mr-4 {
+      margin-right: 0 !important;
+      
+    }
+    .centralizado {
+      /* align-items: center; */
+      justify-content: center !important;
+    }   
+    
+  }
