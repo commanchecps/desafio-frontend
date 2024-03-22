@@ -8,7 +8,6 @@ import Select from '@mui/material/Select';
 import Header from '../lib/components/header/header';
 import Loading from '../lib/components/loading/loading';
 import { Typography } from '@mui/material';
-import InfoIcon from '@mui/icons-material/Info';
 import ListaImagens from '../lib/components/lista-fotos/lista-fotos';
 import Footer from '../lib/components/footer/footer';
 
