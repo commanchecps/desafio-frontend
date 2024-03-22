@@ -9,7 +9,7 @@ export default function Loading() {
                 bottom: 0,
                 left: 0,
                 width: "100%",
-                height: "calc(100% - 64px)",
+                height: "100%",
                 zIndex: 9999,
                 backgroundColor: "rgba(0,0,0,0.5)",
                 display: "flex",
