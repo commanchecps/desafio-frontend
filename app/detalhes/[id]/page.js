@@ -61,7 +61,7 @@ export default function DetalhesFotos({ params }) {
             {(loading) ? <Loading /> : ''}
             {!loading && <div>
                 <div className="my-3 px-4 ">
-                    <Typography variant="h4" component="h1" gutterBottom> Detalhes da  Foto {foto.id}</Typography>
+                    <Typography variant="h4" component="h1" gutterBottom> Foto {foto.id}</Typography>
                 </div>
                 <div className="my-3 mb-8 px-4">
                     <FotoCard elem={foto} key={foto.id} />

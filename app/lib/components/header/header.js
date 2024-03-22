@@ -28,10 +28,6 @@ function ResponsiveAppBar() {
         setAnchorElNav(null);
     };
 
-    const handleCloseUserMenu = () => {
-        setAnchorElUser(null);
-    };
-
     return (
         <>
             <AppBar position="fixed">
