@@ -23,7 +23,7 @@ export default function DetalhesFotos({ params }) {
 
     useEffect(() => {
         const fetchData = () => {
-            fetch(url) // Primeira requisição
+            fetch(url)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
@@ -33,7 +33,7 @@ export default function DetalhesFotos({ params }) {
                 .then(data => {
                     setFoto(data);
                     const urlAlbum = baseURL + `photos?albumId=${data.albumId}&_limit=${amount}`;
-                    return fetch(urlAlbum); // Segunda requisição com o parâmetro albumID
+                    return fetch(urlAlbum);
                 })
                 .then(response => {
                     if (!response.ok) {

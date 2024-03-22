@@ -58,7 +58,7 @@ export default function FotosPaginadas() {
                             labelId="selecao-filtro"
                             id="order"
                             value={order}
-                            label="Ordem"
+                            label="Ordenação"
                             onChange={handleChangeOrder}
                         >
                             <MenuItem value='title'>Título</MenuItem>
@@ -69,17 +69,8 @@ export default function FotosPaginadas() {
             </div>
 
             {(loading) ? <Loading /> : ''}
-            {/* {
-                fotos.length > 0 ? ( */}
-
-
-
-
-
-
 
             <ListaImagens dados={fotos} />
-
 
             <Footer>
                 <div className="my-3 flex justify-center md:w-auto">
