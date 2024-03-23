@@ -59,22 +59,22 @@ export default function Home() {
                     </p>
                 </a>
 
-                <a
-                    href="#"
-                    className="m-2 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                <div
+                    // href="#"
+                    className="m-2 group rounded-lg border border-transparent px-5 py-4 transition-colors"
                     // rel="noopener noreferrer"
                     style={{ cursor: "not-allowed" }}
                 >
                     <h2 className={`mb-3 text-2xl font-semibold`}>
                         Documentação{" "}
-                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                        <span className="inline-block">
                             -&gt;
                         </span>
                     </h2>
                     <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
                         Documentação gerada para o projeto.
                     </p>
-                </a>
+                </div>
             </div>
         </main >
     );
