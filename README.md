@@ -1,6 +1,6 @@
 # Desafio T.E.I.A. 🚀
 
-Bem-vindo(a) ao projeto desevoldio para o **Desafio Frontend**! Aqui você encontrará o código referente ao desafio proposto.
+Bem-vindo(a) ao projeto desenvolvido para o **Desafio Frontend**! Aqui você encontrará o código referente ao desafio proposto.
 
 ## Desafio ☕️
 
@@ -11,8 +11,8 @@ b. Instale as dependências necessárias para fazer requisições HTTP para a AP
 
 a. Consuma a API https://jsonplaceholder.typicode.com/photos/ que vai retornar 5000 registros na estrutura: 
 ```json
-[{ "
-albumId"      : 1, 
+[{ 
+"albumId"     : 1, 
 "id"          : 1, 
 "title"       : "accusamus beatae ad facilis cum similique qui sunt", 
 "url"         : "https://via.placeholder.com/600/92c952", 
