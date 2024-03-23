@@ -82,3 +82,11 @@ npm run dev
 
 Deploy realizado no **[ambiente da Vercel](https://desafio-frontend-pi.vercel.app/)**
 
+## Funcionalidade Implementadas
+
+* Consulta da lista completa de imagens da API, exibindo os thumbnails de 150x150;
+* Acesso individual para a imagem escolhida, no tamanho 600x600;
+* Tratamento dos ids, retornando em caso de erro no parametro passado;
+* Acesso à rota adicional para acesso à imagem de forma randomica;
+
+
