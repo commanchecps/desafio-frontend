@@ -10,7 +10,6 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import HomeIcon from '@mui/icons-material/Home';
 
 const pages = ['Products', 'Pricing', 'Blog'];
 
@@ -33,7 +32,6 @@ function ResponsiveAppBar() {
             <AppBar position="fixed">
                 <Container maxWidth="xxl">
                     <Toolbar disableGutters>
-                        <HomeIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
                         <Typography
                             variant="h6"
                             noWrap
@@ -104,7 +102,6 @@ function ResponsiveAppBar() {
                                 </MenuItem>
                             </Menu>
                         </Box>
-                        <HomeIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
                         <Typography
                             variant="h5"
                             noWrap
