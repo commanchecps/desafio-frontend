@@ -11,7 +11,13 @@ b. Instale as dependências necessárias para fazer requisições HTTP para a AP
 
 a. Consuma a API https://jsonplaceholder.typicode.com/photos/ que vai retornar 5000 registros na estrutura: 
 ```json
-[{ "albumId": 1, "id": 1, "title": "accusamus beatae ad facilis cum similique qui sunt", "url": "https://via.placeholder.com/600/92c952", "thumbnailUrl": "https://via.placeholder.com/150/92c952" }, ...]
+[{ "
+albumId"      : 1, 
+"id"          : 1, 
+"title"       : "accusamus beatae ad facilis cum similique qui sunt", 
+"url"         : "https://via.placeholder.com/600/92c952", 
+"thumbnailUrl": "https://via.placeholder.com/150/92c952" 
+}, ...]
 ```
 
 b. Use as ferramentas de requisição HTTP disponíveis na respectiva biblioteca/framework para fazer requisições para a API e receber os dados.
