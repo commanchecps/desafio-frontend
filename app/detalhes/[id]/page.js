@@ -42,7 +42,7 @@ export default function DetalhesFotos({ params }) {
                     return response.json();
                 })
                 .then(albumData => {
-                    setFotosAlbum(albumData); // Define os dados da segunda requisição
+                    setFotosAlbum(albumData);
                     setLoading(false);
                 })
                 .catch(error => {
@@ -76,4 +76,3 @@ export default function DetalhesFotos({ params }) {
         </div >
     );
 }
-
