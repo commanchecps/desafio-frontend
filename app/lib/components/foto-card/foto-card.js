@@ -11,6 +11,7 @@ export default function FotoCard({ elem }) {
         <Card sx={{ maxWidth: 500 }} key={elem.id}>
             <div className='hidden md:block'>
                 <CardHeader
+                    style={{ backgroundColor: "#F0F0F0" }}
                     avatar={
                         <Avatar sx={{ bgcolor: red[500] }} aria-label="foto" src={elem.thumbnailUrl} >
                             R

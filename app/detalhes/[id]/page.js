@@ -60,7 +60,7 @@ export default function DetalhesFotos({ params }) {
             <Header />
             {(loading) ? <Loading /> : ''}
             {!loading && <div>
-                <div className="my-3 px-4 ">
+                <div className="my-3 px-4">
                     <Typography variant="h4" component="h1" gutterBottom> Foto {foto.id}</Typography>
                 </div>
                 <div className="my-3 mb-8 px-4">
